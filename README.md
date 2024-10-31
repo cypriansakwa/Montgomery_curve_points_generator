@@ -51,3 +51,13 @@ The output will display the points on the Montgomery curve, such as:
 >(9, 11)
 >(10, 3)
 >(10, 10)
+## Contributing
+  - If you intend to contribute to this project, fork the repository and make a pull request.
+## Acknowledgments
+- Rust
+
+## Clone the repository:
+
+   ```bash
+   git clone https://github.com/cypriansakwa/Montgomery_curve_points_generator.git
+   cd Montgomery_curve_points_generator
