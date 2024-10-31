@@ -25,6 +25,29 @@ The code consists of the following key components:
 
 To run this program, ensure you have Rust installed on your machine. You can compile and execute the program using the following commands:
 
-```bash
-cargo build --release
-cargo run
+>```
+>cargo build --release
+>cargo run
+The program will output all points on the Montgomery curve, including the point at infinity if it is included in the definition of the curve.
+## Example Output
+The output will display the points on the Montgomery curve, such as:
+>```
+>(0, 0)
+>(1, 4)
+>(1, 9)
+>(2, 4)
+>(2, 9)
+>(3, 5)
+>(3, 8)
+>(4, 4)
+>(4, 9)
+>(5, 1)
+>(5, 12)
+>(7, 1)
+>(7, 12)
+>(8, 1)
+>(8, 12)
+>(9, 2)
+>(9, 11)
+>(10, 3)
+>(10, 10)
